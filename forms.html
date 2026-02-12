@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <h1></h1>
+    <form>
+        <label for="USERNAME">username</label>
+        <input type="text" name="username" id="username" placeholder="ENTER USERNAME" value="">
+
+        <label for="email" type="text">EMAIL</label>
+        <input type="text" name="username" id="email" placeholder="">
+<br>
+        <input type="sumbit">
+        <button>Sumbit</button>
+<br>
+<br>
+        <input type="password" name="password" id="password" placeholder="ENTER YOUR PASSWORD">
+
+
+<br>
+<hr>
+<br>
+<br>
+
+
+<lable for="gender">GENDER</lable>
+<input type="radio" name="gender" id="male" value="male" />
+
+<label for="female">FEMALE</label>
+<input type="radio" name="gender" id="female" value="female"/>
+
+
+
+<br>
+<hr>
+
+<label for="country">COUNTRY</label>
+<select name="country" id="country">
+    <option  value="" disabled selected>select a country</option>
+    <option value="india">INDIA</option>
+    <option value="china">CHINA</option>
+    <option value="us">USA</option>
+    <option value="pakistan">PAKISTAN</option>
+    <!-- <option value=""></option> -->
+
+</select>
+
+
+
+
+
+<br>
+<br>
+
+<label for="courses">COURSES</label>
+<input type="text" name="courses" id="courses" list="sub">
+
+<datalist id="sub">
+    <option value="mern">MERN STACK</option>
+    <option value="Java">JAVA</option>
+    <option value="javascript">javascript</option>
+</datalist>
+
+
+<br>
+<label for="resume">RESUME</label>
+<input type="file" name="resume"  multiple>
+        
+    </form>
+</body>
+</html>
