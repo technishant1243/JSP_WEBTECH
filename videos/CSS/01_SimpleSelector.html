@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: gray;
+        }
+        #heading1{
+            background-color: yellow;
+        }
+
+        .content{
+            background-color: blueviolet;
+        }
+
+        .text-style{
+            font-family:system-ui;
+        }
+
+        h6{
+            background-color: rgb(43, 226, 43);
+        }
+
+        #head,.wrapper,footer{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <!-- SELECTORS: TO TARGET HTML  -->
+    <!-- THERE ARE 5 TYPES OF SELECTORS -->
+
+    <!-- simple   SELECTOR HAVE 5 TYPES -->
+    <!-- combinator SELECTOR HAVE 4 TYPES -->
+    <!-- pseudo-class  SELECTOR HAVE 5-6 TYPES-->
+    <!-- pseudo-element SELECTOR HAVE 5-6 TYPES -->
+    <!-- ATTRIBUTTE  SELECTOR HAVE 7 TYPES -->
+
+
+    <!-- <h1>SIMPLE SELECTOR</h1> -->
+    <!--
+    THERE ARE 5 TYPES
+    1.ID:USED TO TARGET ELEMENT UNIQELY REPRESENTED AS #(UNIQELY target)
+    2.CLASS:USED TO TARGET MULTIPLE SIMLAR OR DIFFRENT ELEMENTS,REPRESENTED AS DOT(.)
+    3.ELEMENT:USED TO TARGET MULTIPLE SAME TYPE OF ELEMENT REPRESETED AS TAG NAME
+    4.GROUP:USED TO GROUP MULTIPLE ELEMENTS REPRESENTED AS A COMMA(,)
+    5.UNIVERSAL:USED TO TARGET ALL ELEMENTS REPRESTED AS (*) used to target margin padding;-->
+
+
+
+    <h1 id="heading1"> TREGT ME USING ID</h1>
+
+    <div class="content">TERGET ME USING CLASS NAME</div>
+
+    <div class="content">TARGET ME USING CLASS NAMe</div>
+    <section class="content text-style">TARGET ME USING CLASS NAME</section>
+
+    <!-- IN SECTION THE SPACE IN CLASS MEANS WE ARE USING 2 CLASSES -->
+
+
+    <!-- ELEMENT SELECTOR -->
+     <h6>TARGET ME USING TAG NAME</h6>
+     <h6>TARGET ME USING TAG NAME</h6>
+     <h6>TARGET ME USING TAG NAME</h6>
+
+
+     <header id="head">TARGET ME USING GROUPS </header>
+     <article class="wrapper">TARGET ME USING GROUPS </article>
+     <footer>TARGET ME USING GROUPS</footer>
+
+    
+</body>
+</html>
