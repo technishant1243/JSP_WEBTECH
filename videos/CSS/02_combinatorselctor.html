@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+         /*
+         DESNDENT TAG: TARGET CHILD AS WELL AS NESTED CHILD
+         */
+        section div{
+            background-color: yellow;
+        }
+    /*
+    CHILD TAG: TARGET  DIRECT CHILD
+    */
+section > div{
+            background-color: aquamarine;
+    }
+
+    /*
+Genral sibling ~
+    */
+
+    section ~ div{
+        background-color: brown;
+    }
+
+    /*
+ADJACENT SIBLING :NEAR TO CLOSING TAG
+near after the section closing tag
+ */
+
+    section + nav{
+        background-color: chartreuse;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>LEARN COMBINATOR SELECTOR</h1>
+    <!-- HAVE 4 TYPES -->
+     <!-- 1.DECENDENT HAVE NO SYMBOL ONLY SPACE   div{ }-->
+      <!-- 2.CHILD  SYMBOL IS > -->
+       <!-- 3.GENERAL SIBLING ~ TILDE SYMBOL -->
+        <!-- ADJACENT SIBLING + -->
+
+        <section>
+            <div>div 1</div>
+            <div> div 2</div>
+
+         <article>
+
+           <div>div 3 </div>
+            <div> div 4</div>
+
+            </article>
+
+            <div> div 5</div>
+        </section>
+
+        
+ 
+        <nav>nav1</nav>
+       <div>div 6</div>
+        <div> div 7</div>
+
+        <aside> aside 1</aside>
+
+</body>
+</html>
