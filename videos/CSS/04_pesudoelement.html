@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            font-size: 80px;
+        }
+
+        p::first-line{
+            color:red;
+        }
+
+        p::selection{
+            background-color: lightblue;
+            color: darkblue;
+        }
+
+        ol>li::marker{
+            color: red;
+        }
+
+        h1::before{
+            content: "🧑‍🎓";
+               /*
+               window+. for emoje
+               */
+        
+               font-size: 50px;
+        }
+
+        h1::after{
+            content: "😎";
+            font-size: 50px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>LEARN PESUDO ELEMENT SELECTOR</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corporis deleniti vero nihil similique corrupti exercitationem vitae unde, nemo totam ducimus? Ipsa eius quis culpa doloribus libero officia, reiciendis fugiat ea! Dolorum ullam assumenda perspiciatis recusandae animi adipisci, quos eius aliquid ducimus. Officia corrupti exercitationem earum nisi illo quam quas.</p>
+
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+    <li>HELLO WORLD</li>
+</ol>
+
+</body>
+</html>

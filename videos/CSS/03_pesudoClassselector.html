@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn pesudo class selector</title>
+
+    <style>
+
+        a:link{
+            color: aqua;
+        }
+
+        a:visited{
+            color: black;
+        }
+
+        a:active{
+            color:yellow;
+        }
+
+        h1:active{
+            background-color: blue;
+            user-select: none;
+        }
+
+        button:hover{
+            background-color: black;
+            color: whitesmoke;
+            cursor: pointer;
+
+        }
+        
+        button:active{
+            background-color: white;
+            color:black;
+
+        }
+
+        ul>li:first-child{
+            background-color: orange;
+        }
+        ul>li:last-child{
+            background-color:green;
+        }
+
+        ul>li:nth-child(2){
+            background-color: whitesmoke;
+        }
+
+
+        section>h3:first-of-type{
+            background-color: yellow;
+        }
+        
+        section>h3:nth-of-type(2){
+            background-color: blue;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>learn pesudo class selector</h1>
+    <!-- we reprsent pesudo class selctor by colon(:)
+     : link 
+     : action
+     : visted
+     :first-of-type
+     :last-of-type
+     :nth-of-type
+     -->
+
+    <!-- THERE ARE MANY KIND OF (:) First-child
+                                (:) last-child
+                                 (:) nth-child
+
+
+    -->
+
+    <a href="https://www.zara.com">ZARA</a>
+    <a href="https://www.flipkart.com">Flipkart</a>
+    <a href="demo.html">DEMO</a>
+
+    <ul>
+        <li>HTML</li>
+        <li>css </li>
+        <li>js</li>
+    </ul>
+
+    <button>sumbit</button>
+
+    
+
+    <section>
+        <article> i am article </article>
+        <h3> I AM H3</h3>
+        <aside>I am aside</aside>
+        <article>I AM ARTICLE</article>
+        <h3> I AM H3</h3>
+        <aside>i AM ASIDE</aside>
+    </section>
+</body>
+</html>
